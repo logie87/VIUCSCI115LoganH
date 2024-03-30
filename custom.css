@@ -1,0 +1,194 @@
+h1 {
+  text-align: center;
+  color: #373b3f;
+}
+
+body {
+  background-color: #f8ceac;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.maintext {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.sidemenu1 {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #373b3f;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 10px;
+}
+
+.sidemenu1 a,
+.dropbtn {
+  padding: 10px 8px 10px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  text-align: left;
+  color: white;
+  display: block;
+  transition: 0.1s;
+  border: none;
+  background-color: #373b3f;
+}
+
+.sidemenu1 a:hover,
+.dropbtn:hover {
+  color: #955955;
+}
+
+.sidemenu1 .closemenubtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #44484f;
+  border-radius: 10px;
+  z-index: 1;
+  padding: 10px;
+}
+
+.dropdown-content a {
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: #955955;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropbtn {
+  padding-right: 15px;
+}
+.openmenu {
+  font-size: 24px;
+  font-family: inherit;
+}
+
+#cameralist {
+  text-align: center;
+  list-style: none;
+}
+
+#floatright {
+  float: right;
+}
+#floatleft {
+  float: left;
+}
+.images {
+  margin: 0px;
+}
+
+.brandheaderleft {
+  float: left;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#table02 {
+  width: 100%;
+  padding: 5px;
+  border-collapse: collapse;
+}
+.tableimg {
+  width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tableimg1 {
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.BrandInfo {
+  font-family: inherit;
+  font-style: italic;
+  color: #cc3b36;
+  text-align: center;
+}
+
+#comparelink {
+  font-weight: bold;
+  text-align: center;
+}
+
+.lenstable {
+  border-collapse: collapse;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.texttable {
+  padding: 10px;
+  font-weight: bold;
+}
+
+#LocationsTitle {
+  text-align: center;
+  color: lightseagreen;
+}
+#Locations {
+  text-align: center;
+  margin-top: 20px;
+  list-style: lower-latin;
+  list-style-position: inside;
+}
+
+#compimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.lensheader {
+  color: #373b3f;
+  font-size: 24px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#isolist {
+  justify-content: flex-start;
+  width: auto;
+  text-align: center;
+  list-style-position: inside;
+}
+
+.CycleLinks {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+
+table th,
+table td {
+  border: 1px solid black;
+}

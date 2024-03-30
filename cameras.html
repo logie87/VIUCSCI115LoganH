@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Bodies</title>
+    <link rel="stylesheet" type="text/css" href="custom.css">
+    <script src="java.js"></script>
+    <style>
+        a:hover {
+            color: lightseagreen;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="sidemenu" class="sidemenu1">
+        <!--Calls javascript to execute function NavMenuClose() when the link associated with the image &times is clicked.-->
+        <a href="javascript:void(0)" class="closemenubtn" onclick="NavMenuClose()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="cameras.html">Cameras</a>
+        <a href="brands.html">Brands</a>
+        <a href="lenses.html">Lenses</a>
+        <a href="composition.html">Composition</a>
+        <br>
+        <div class="dropdown">
+            <button class="dropbtn">Camera Settings
+                <i class="fa-caret-down" aria-hidden="true"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="iso.html">Light Sensitivity</a>
+                <a href="shutter.html">Shutter Speed</a>
+                <a href="aperture.html">Aperture</a>
+            </div>
+        </div>
+
+    </div>
+    <!--Calls javascript to execute function NavMenuOpen() when the link associated with the image &#8595 is clicked.-->
+    <span class="openmenu" onclick="NavMenuOpen()">&#8595;</span>
+
+    <h1>Types of Cameras</h1>
+    <p class="CycleLinks">
+        <a href="index.html" style="text-decoration: none;"> &#8617; Previous Page</a><br>
+        <a href="brands.html" style="text-decoration: none;">&#8594; Next Page</a>
+    </p>
+    <p class="maintext">From the early ages, humans have wanted to capture events in a way that they could show them to
+        each other. Cameras have been From 1816 onwards, cameras have been a major part in capturing history. Joseph
+        Nicéphore Niépce invented a super unqiue camera that started the evolution of visual capture technology.
+        Nowadays, we have cameras that can store photos on a tiny SD card in the thousands, photos we can print up to
+        the size of ourselfs, and capture vibrancy like nothing before. Photography is an expensive, but deep passion in
+        a lot of peoples hearts. So what type of cameras has history seen?</p>
+    <ul id="cameralist">
+        <li>Mirrorless Cameras</li>
+        <li>DSLR Mirrored Cameras</li>
+        <li>Film Cameras</li>
+        <li>Box Cameras</li>
+        <li>Camcorders</li>
+        <li>Mobile Phones and Flip Phones</li>
+    </ul>
+    <img src="img/cameras.png" alt="Camera Collage" class="imgstyle">
+
+</body>
+
+</html>

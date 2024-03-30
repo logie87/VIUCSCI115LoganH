@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lenses</title>
+  <link rel="stylesheet" type="text/css" href="custom.css">
+  <script src="java.js"></script>
+  <style>
+    a:hover {
+      color: lightseagreen;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="sidemenu" class="sidemenu1">
+    <a href="javascript:void(0)" class="closemenubtn" onclick="NavMenuClose()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="cameras.html">Cameras</a>
+    <a href="brands.html">Brands</a>
+    <a href="lenses.html">Lenses</a>
+    <a href="composition.html">Composition</a>
+    <br>
+    <div class="dropdown">
+      <button class="dropbtn">Camera Settings
+        <i class="fa-caret-down" aria-hidden="true"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="iso.html">Light Sensitivity</a>
+        <a href="shutter.html">Shutter Speed</a>
+        <a href="aperture.html">Aperture</a>
+      </div>
+    </div>
+
+  </div>
+
+  <span class="openmenu" onclick="NavMenuOpen()">&#8595; Menu</span>
+
+  <h1>Types of Lenses</h1>
+  <p class="CycleLinks">
+    <a href="brands.html" style="text-decoration: none;"> &#8617; Previous Page</a><br>
+    <a href="composition.html" style="text-decoration: none;">&#8594; Next Page</a>
+  </p>
+  <p class="maintext">
+    Photography boasts so many creative styles, and all of these exists because of the lenses you can get for your
+    cameras. Different lens types exist to create perspective, like close ups, wide shots, macros etc. So lets look at
+    the classifications and what each of them mean!
+  </p>
+  <!-- Flex Box for Lenses -->
+  <table class="lenstable">
+    <caption>Lens Styles</caption>
+    <tr>
+      <th class="lensheader">Standard</th>
+      <th class="lensheader">Prime</th>
+      <th class="lensheader">Macro</th>
+      <th class="lensheader">Telephoto</th>
+      <th class="lensheader">Wide Angle</th>
+      <th class="lensheader">Fisheye</th>
+    </tr>
+    <tr>
+      <td><img src="lenses/lens2/standard.png" class="tableimg1" alt="standard"></td>
+      <td><img src="lenses/lens2/prime.png" class="tableimg1" alt="prime"></td>
+      <td><img src="lenses/lens2/macro.png" class="tableimg1" alt="macro"></td>
+      <td><img src="lenses/lens2/telephoto.png" class="tableimg1" alt="telephoto"></td>
+      <td><img src="lenses/lens2/wide.png" class="tableimg1" alt="wide"></td>
+      <td><img src="lenses/lens2/fisheye.png" class="tableimg1" alt="fisheye"></td>
+    <tr>
+      <td class="texttable">The standard lens is a basic lens, sometimes with a large focal range, sometimes small. They
+        tend to come with camera bodies as a standard lens, called a kit lens. Often they work well for everything, but
+        some lenses work better in other scenarios.</td>
+      <td class="texttable">Prime lenses are lenses at a fixed focal length, like 50mm. They work well with subjects
+        like in portrait photography as they reach lower <a href="aperture.html">apertures</a> which can help in
+        creative situations!</td>
+      <td class="texttable">Macro lenses allow you to capture strong detail of a super close of subject. Macro lenses
+        are often used to photograph insects, flowers, and other tiny things! The optical quality of macro lenses allow
+        them to see things in a detail that the human eye struggles to see!</td>
+      <td class="texttable">Telephoto lenses are a super popular and strong pick for most. A telephoto lens has a
+        rotating portion that extends the lens to capture things from afar. They are mostly used for wildlife and
+        landscape photos. The awesome thing about big focal lengths like 300mm is that the background is enlarged, so
+        mountains behind a subject can look astonishingly massive.</td>
+      <td class="texttable">Wide angles are a lesser used but still practical lens style. Wide lenses allow the
+        photographer to capture as much in a photo as possible, making them great for videography, and landscape
+        photography. Most photos of mountains, and oceans are shot on wide lenses as it brings in the whole region,
+        instead of a small portion!</td>
+      <td class="texttable">Probably the least used lens on this list is the fisheye. It captures an odd, bloated
+        perspective. While a very unique lens, it has less practical purpose. It is typically the widest lens you can
+        get, but sometimes it is a little too wide!</td>
+
+    </tr>
+
+  </table>
+  <h3 id="LocationsTitle">Here are the best places to pick up a new camera lens!</h3>
+  <ol id="Locations">
+    <li>
+      London Drugs <a href="https://londondrugs.com" target="_blank">(New Tab)</a>
+    </li>
+    <li>
+      Kerrisdale Cameras <a href="https://kerrisdalecameras.com" target="_blank">(New Tab)</a>
+    </li>
+    <li>
+      Facebook Marketplace <a href="https://facebook.com" target="_blank">(New Tab)</a>
+    </li>
+  </ol>
+  <br>
+</body>
+
+</html>

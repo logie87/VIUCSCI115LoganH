@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ISO</title>
+  <link rel="stylesheet" type="text/css" href="custom.css">
+  <script src="java.js"></script>
+  <style>
+    a:hover {
+      color: lightseagreen;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="sidemenu" class="sidemenu1">
+    <a href="javascript:void(0)" class="closemenubtn" onclick="NavMenuClose()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="cameras.html">Cameras</a>
+    <a href="brands.html">Brands</a>
+    <a href="lenses.html">Lenses</a>
+    <a href="composition.html">Composition</a>
+    <br>
+    <div class="dropdown">
+      <button class="dropbtn">Camera Settings
+        <i class="fa-caret-down" aria-hidden="true"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="iso.html">Light Sensitivity</a>
+        <a href="shutter.html">Shutter Speed</a>
+        <a href="aperture.html">Aperture</a>
+      </div>
+    </div>
+
+  </div>
+
+  <span class="openmenu" onclick="NavMenuOpen()">&#8595; Menu</span>
+
+  <h1>ISO</h1>
+  <p class="CycleLinks">
+    <a href="composition.html" style="text-decoration: none;"> &#8617; Previous Page</a><br>
+    <a href="shutter.html" style="text-decoration: none;">&#8594; Next Page</a>
+  </p>
+  <p class="maintext" style="margin: 30px;">ISO is a camera setting that lets you adjust how sensitive your cameras is
+    to light! Sort of like an exposure slider, a high ISO, such as 2000 will make light super visible, which is super
+    useful for low light situations. The common standard for ISO is 100, it is a low, natural setting that ensures your
+    photo wont be overexposed. ISO 100 is best for daylight, and is what most photos are shot with. See below for a list
+    of ISO scenarios!</p>
+
+  <ul id="isolist">
+    <li style="margin: 10px;"><strong>ISO 100:</strong> 100 ISO is best for daylight, it minimises grain, and ensures
+      your photo will look natural and crisp!</li>
+    <li style="margin: 10px;"><strong>ISO 400:</strong> 400 ISO is best for shade, it brings out some light that the
+      camera may not see like how your eyes see it, and it will catch the heavily shadowed spaces. This also may be good
+      for sunset where light isn't as abundant, or strong!</li>
+    <li style="margin: 10px;"><strong>ISO 1000:</strong> 1000 ISO is best for indoors without light, or outdoors at
+      sunset / dusk. This will introduce a bit of grain into your photos, but it will capture light that you can't see,
+      bringing out objects that may be hard for you to see.</li>
+    <li style="margin: 10px;"><strong>ISO &gt;1000:</strong> Anything greater than 1000 is best for night skies, dark
+      landscapes, and any situation where your other settings are creating a dark scene. You can use ISO 1000 or more in
+      broad daylight if your shutter is too fast and your aperture is high, it is all dependant on scenario!</li>
+  </ul>
+
+</body>
+
+</html>
